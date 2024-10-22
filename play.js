@@ -7,8 +7,8 @@ const connect = function() {
     port: 50541,
   });
 
-  conn.on('data', () => {
-    console.log('Are you ready!');
+  conn.on('data', (data) => {
+    console.log(data);
   });
 
   // interpret incoming data as text
