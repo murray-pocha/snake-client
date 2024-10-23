@@ -9,7 +9,11 @@ const connect = function() {
 
   conn.on('connect', () => {
     console.log('Welcome to the server!');
-    conn.write("Name: MDP");
+    conn.write('Name: MDP');
+    //const moveUpInterval = setInterval(() => {
+    //conn.write('Move: up');
+    //}, 50);
+
   });
 
   conn.on('data', (data) => {
