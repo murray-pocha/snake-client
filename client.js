@@ -7,6 +7,11 @@ const connect = function() {
     port: 50541,
   });
 
+  conn.on('connect', () => {
+    console.log('Welcome to the server!');
+    conn.write("Name: MDP");
+  });
+
   conn.on('data', (data) => {
     console.log(data);
   });
