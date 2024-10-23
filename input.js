@@ -10,6 +10,18 @@ const setupInput = (conn) => {
   return stdin;   // return the stdin object so we can use it elsewhere in the program
 };
 
+const movementprompts = {
+  'w': 'up',
+  'a': 'left',
+  's': 'down',
+  'd': 'right'
+};
+
+const specialMessage = {
+  'j': 'Say: Hey, everyone!',
+  'k': 'Say: I win!',
+  'l': 'Say: ahhhhh, I lost'
+};
 
 const handleUserInput = function(key) {
   if (key === '\u0003') {
@@ -17,17 +29,14 @@ const handleUserInput = function(key) {
     process.exit();
   }
 
-  if (key === 'w') {
-    connection.write('Move: up');
+  const message = specialMessage[key];
+  if (message) {
+    connection.write(`Say: ${message}`);
+  }
 
-  } else if (key === 'a') {
-    connection.write('Move: left');
-
-  } else if (key === 's') {
-    connection.write('Move: down');
-
-  } else if (key === 'd') {
-    connection.write('Move: right');
+  const direction = movementprompts[key];
+  if (direction) {
+    connection.write(`Move: ${direction}`);
   }
 };
 
