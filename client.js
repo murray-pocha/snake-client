@@ -1,6 +1,6 @@
 const net = require("net");
 const { IP, PORT } = require('./constants');
-
+const playerName = 'MDP';
 
 const connect = function() {
   const conn = net.createConnection({
@@ -10,8 +10,8 @@ const connect = function() {
   });
 
   conn.on('connect', () => {
-    console.log('Connected, Welcome to the server!');
-    conn.write('Name: MDP');
+    console.log(`Connected, Welcome to the server, ${playerName}!`);
+    conn.write(`Name: ${playerName}`);
 
   });
 
@@ -21,7 +21,6 @@ const connect = function() {
   });
 
   conn.setEncoding("utf8");
-
   return conn;
 
 };
