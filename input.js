@@ -1,3 +1,5 @@
+const { movementprompts, specialMessage } = require('./constants');
+
 let connection;
 
 const setupInput = (conn) => {
@@ -8,19 +10,6 @@ const setupInput = (conn) => {
   stdin.resume();
   stdin.on('data', handleUserInput);
   return stdin;
-};
-
-const movementprompts = {
-  'w': 'up',
-  'a': 'left',
-  's': 'down',
-  'd': 'right'
-};
-
-const specialMessage = {
-  'j': 'Say: Hey, everyone!',
-  'k': 'Say: I win!',
-  'l': 'Say: ahhhhh, I lost'
 };
 
 const handleUserInput = function(key) {
