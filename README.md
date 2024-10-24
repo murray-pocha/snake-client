@@ -9,13 +9,13 @@ Before you can run this client, you will need to be running the server side, whi
 ## Final Product
 
 !["MY snake is growing! Don't die, don't die.."](#)
-![alt text](<Screenshot 2024-10-24 115135.png>)
+![alt text](<Screenshot_2024-10-24_115135.png>)
 
 !["Sending a friendly message to everyone."](#)
-![alt text](<Screenshot 2024-10-24 114847.png>)
+![alt text](<Screenshot_2024-10-24_114847.png>)
 
 !["Starting my attempt to build the longest snake!"](#)
-![alt text](<Screenshot 2024-10-24 114824.png>)
+![alt text](<Screenshot_2024-10-24_114824.png>)
 
 ## Getting Started
 
