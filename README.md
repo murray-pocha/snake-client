@@ -8,7 +8,7 @@ Before you can run this client, you will need to be running the server side, whi
 
 ## Final Product
 
-!["MY snake is growing! Don't die, don't die.."](./screenshots/Screenshot 2024-10-24 114824.png)
+!["MY snake is growing! Don't die, don't die.."](./screenshots/Screenshot_2024-10-24_114824.png)
 
 !["Sending a friendly message to everyone."](#)
 ![alt text](<Screenshot_2024-10-24_114847.png>)
