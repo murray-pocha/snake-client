@@ -10,11 +10,9 @@ Before you can run this client, you will need to be running the server side, whi
 
 ![MY snake is growing! Don't die, don't die..](https://github.com/murray-pocha/snake-client/blob/master/screenshots/Screenshot%202024-10-24%20114824.png?raw=true)
 
-!["Sending a friendly message to everyone."](#)
-![alt text](<Screenshot_2024-10-24_114847.png>)
+!["Sending a friendly message to everyone."](https://github.com/murray-pocha/snake-client/blob/master/screenshots/Screenshot%202024-10-24%20114847.png)
 
-!["Starting my attempt to build the longest snake!"](#)
-![alt text](<Screenshot_2024-10-24_114824.png>)
+!["Starting my attempt to build the longest snake!"](https://github.com/murray-pocha/snake-client/blob/master/screenshots/Screenshot%202024-10-24%20115135.png)
 
 ## Getting Started
 
